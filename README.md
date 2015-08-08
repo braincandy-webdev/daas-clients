@@ -9,3 +9,4 @@ That is: send and `a`, receive an `á`.
 * Node.js (`client.js`)
 * Ruby (`client.rb`)
 * PHP (`client.php`)
+* Golang + nappings (`client.go`)
