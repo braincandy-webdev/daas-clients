@@ -10,3 +10,4 @@ That is: send and `a`, receive an `á`.
 * Ruby (`client.rb`)
 * PHP (`client.php`)
 * Golang + napping (`client.go`)
+* Emacs-mode (`client.el`)
