@@ -7,17 +7,9 @@ import (
        "os"
 )
 
-type Char struct {
-     Unicode string
-}
-
 type Data struct {
      Input string
      Output []string
-}
-
-func (this Char) String() string {
-     return this.Unicode
 }
 
 func main() {
