@@ -14,9 +14,7 @@ function get_char(char){
         response.setEncoding('utf8');
         response.on('data', function (data) {
             data = JSON.parse(data);
-            var chars = data.output.map(function(c){
-                return c.unicode;
-            });
+            var chars = data.output.map(function(c){ return c; });
             console.log(chars.join(' '));
         });
     });

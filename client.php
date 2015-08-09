@@ -9,7 +9,7 @@ if( $char ){
 
   if( $response ){
     $json = json_decode($response, true);
-    echo join(" ", array_map(function($c){ return utf8_decode($c['unicode']); }, $json['output']))."\n";
+    echo join(" ", array_map(function($c){ return utf8_decode($c); }, $json['output']))."\n";
   }
 }
 else{

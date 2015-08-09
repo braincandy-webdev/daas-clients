@@ -13,7 +13,7 @@ def get_char(c)
 
   if response.code == "200"
     result = JSON.parse(response.body)
-    chars = result['output'].map { |char| char['unicode'] }
+    chars = result['output'].map { |char| char }
     puts chars * " "
   end
 end

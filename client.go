@@ -13,7 +13,7 @@ type Char struct {
 
 type Data struct {
      Input string
-     Output []Char
+     Output []string
 }
 
 func (this Char) String() string {
@@ -36,7 +36,7 @@ func main() {
 
           if resp.Status() == 200 {
              for _, c := range result.Output {
-                 fmt.Printf("%s ", c.String())
+                 fmt.Printf("%s ", c)
              }
           }
      } else {

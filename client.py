@@ -9,7 +9,7 @@ def get_char(c):
   r = requests.get(API_HOST+API_RESOURCE.format(c))
   if r.status_code == 200:
     for c in r.json().get('output'):
-      print c.get('unicode'),
+      print c,
 
 if __name__ == "__main__":
   if len(sys.argv) > 1:
