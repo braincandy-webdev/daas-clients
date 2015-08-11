@@ -28,6 +28,10 @@ The only requirement is [requests](http://docs.python-requests.org/en/latest/), 
     $ virtualenv diacritic; cd diacritic; . bin/activate;
     $ pip install requests
 
+#### `client.js`
+
+Works out of the box.
+
 #### `client.rb`
 
 Works out of the box.
